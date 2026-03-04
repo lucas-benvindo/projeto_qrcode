@@ -12,18 +12,25 @@ body{
     background-color: var(--cor03);
 }
 
+#container{
+    height: 97vh;
+    position: relative;
+}
+
 main{
     background-color: white;
-    width: 300px;
+    max-width: 300px;
     text-align: center;
     padding: 15px;
     border-radius: 10px;
-    margin: auto;
-    margin-top: 12vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 img{
-    height: 300px;
+    max-width: 293px;
     border-radius: 10px;
 }
 
@@ -37,6 +44,7 @@ p{
     font-size: 15px;
     padding-left: 18px;
     padding-right: 18px;
+    color: var(--cor02);
 }
 
 
