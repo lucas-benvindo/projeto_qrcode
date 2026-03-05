@@ -8,6 +8,10 @@
     --fonte: 'Outfit', sans-serif;
 }
 
+*{
+    box-sizing: border-box;
+}
+
 body{
     background-color: var(--cor03);
 }
@@ -19,7 +23,8 @@ div#container{
 
 main{
     background-color: white;
-    max-width: 300px;
+    max-width: 315px;
+    width: 90%;
     text-align: center;
     padding: 15px;
     border-radius: 10px;
@@ -30,7 +35,7 @@ main{
 }
 
 img{
-    max-width: 293px;
+    width: 100%;
     border-radius: 10px;
 }
 
